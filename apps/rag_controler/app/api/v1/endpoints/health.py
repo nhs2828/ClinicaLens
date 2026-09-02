@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Request, Response, status
 
 from app.core.config import get_settings
-from app.schemas import (
+from app.schemas.health_schemas import (
     HealthResponse,
     LivenessResponse
 )

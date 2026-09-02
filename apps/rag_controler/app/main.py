@@ -15,11 +15,12 @@ from app.api.v1.routers import api_router
 from app.middleware.request_tracing import RequestTracingMiddleware
 from app.middleware.logging_middleware import AccessLogMiddleware
 from app.middleware.error_handler import register_exception_handlers
-from app.core.config import settings
+from app.core.config import get_settings
 from app.core.logging import setup_logging, get_logger
 
 setup_logging()
 logger = get_logger(__name__)
+settings = get_settings()
 
 limiter = Limiter(key_func=get_remote_address, default_limits=[settings.RATE_LIMIT_DEFAULT])
 

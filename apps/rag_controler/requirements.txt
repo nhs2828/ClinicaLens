@@ -1,5 +1,5 @@
 # API Framework
-fastapifastapi
+fastapi
 slowapi
 uvicorn
 gunicorn

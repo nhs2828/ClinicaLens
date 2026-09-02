@@ -1,4 +1,8 @@
-class SegmentationService():
+from app.core.logging import get_logger
+
+logger = get_logger("app.services.rag_service")
+
+class RAGService():
     def __init__(self):
         self._model = None
 
