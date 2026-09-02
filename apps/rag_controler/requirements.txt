@@ -1,0 +1,12 @@
+# API Framework
+fastapifastapi
+slowapi
+uvicorn
+gunicorn
+python-multipart
+# Data Validation
+pydantic
+pydantic-settings
+# Observability
+prometheus-client
+prometheus-fastapi-instrumentator

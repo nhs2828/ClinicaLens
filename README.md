@@ -1,5 +1,3 @@
 # ClinicaLens
-# ClinicaLens
-# ClinicaLens
-# ClinicaLens
-# ClinicaLens
+(IN PROCESS)
+QA guidelines on patients records
